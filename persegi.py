@@ -17,3 +17,4 @@ class Rectangle:
 
 if __name__ == "__main__":
     try:
+        rect = Rectangle(3, 2)
