@@ -21,3 +21,8 @@ if __name__ == "__main__":
         print("Detail Objek :", rect)
         circumference = rect.calculate_circumference()
         print(f"Keliling     : {circumference} cm")
+        area = rect.calculate_area()
+        print(f"Luas         : {area} cm²")
+
+    except ValueError as e:
+        print(f"Error: {e}")
