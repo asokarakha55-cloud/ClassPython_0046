@@ -19,3 +19,5 @@ if __name__ == "__main__":
     try:
         rect = Rectangle(3, 2)
         print("Detail Objek :", rect)
+        circumference = rect.calculate_circumference()
+        print(f"Keliling     : {circumference} cm")
